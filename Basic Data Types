@@ -1,0 +1,22 @@
+#include <cstdio>
+#include <iomanip>
+#include <iostream>
+using namespace std;
+int main() {
+    int a=3;
+    long b = 12345678912345;
+    char c='a';
+    float d=334.230;
+    double e=14049.30493;
+    cin>>a>>b>>c>>d>>e;
+    cout<<a<<endl;
+    cout<<b<<endl;
+    cout<<c<<endl;
+    cout.precision(3);
+    cout<<fixed<<d<<endl;
+    cout.precision(9);
+    cout<<fixed<<e<<endl;
+
+        // Complete the code.
+        return 0;
+}
